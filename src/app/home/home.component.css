@@ -12,10 +12,11 @@
 }
 
 #details-container {
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
     background-color: #F3E4CF;
     position: relative;
+    text-align: center;
 }
 
 .personal-img {
@@ -88,4 +89,9 @@
 
 .btn.live {
     padding-top: 0.2rem;
+}
+
+.btn.resume {
+    padding-top: 0.25rem;
+    margin-top: 0.4rem;
 }
