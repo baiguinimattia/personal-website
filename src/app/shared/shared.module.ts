@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ClarityModule } from '@clr/angular';
 import { HeaderComponent } from './header/header.component';
-import { SideMenuComponent } from './side-menu/side-menu.component';
 import { SwiperComponent } from './swiper/swiper.component';
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';
@@ -16,7 +15,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
 };
 
 @NgModule({
-  declarations: [HeaderComponent, SideMenuComponent, SwiperComponent, FooterComponent, ExternalUrlDirective],
+  declarations: [HeaderComponent, SwiperComponent, FooterComponent, ExternalUrlDirective],
   imports: [
     CommonModule,
     ClarityModule,
@@ -28,6 +27,6 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
       useValue: DEFAULT_SWIPER_CONFIG
     }
   ],
-  exports: [HeaderComponent, SideMenuComponent, SwiperComponent, FooterComponent, ExternalUrlDirective]
+  exports: [HeaderComponent, SwiperComponent, FooterComponent, ExternalUrlDirective]
 })
 export class SharedModule { }
