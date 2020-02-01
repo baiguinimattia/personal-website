@@ -1,0 +1,38 @@
+#header-container {
+    height: 60px;
+    width: 100vw;
+    background-color: #EBDCC3;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+
+.heading-name {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.clr-row {
+    height: 100%;
+}
+
+.nav-btn {
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    height: 100%;
+}
+
+.left {
+    background-color: #0588D9;
+}
+
+.middle {
+    background-color: #C1B5B4;
+}
+
+.right {
+    background-color: #E23815;
+}
