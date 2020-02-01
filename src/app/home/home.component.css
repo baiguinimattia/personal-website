@@ -1,7 +1,7 @@
 #home-container {
-    width: 100vw;
+    width: 100%;
     height: auto;
-    background-color: #D5D5D5;
+    background-color: #DCC4A3;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@
 }
 
 #details-container {
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
     background-color: #F3E4CF;
     position: relative;
@@ -31,4 +31,61 @@
     border-radius: 50%;
     border: 5px solid #000000;
     margin-top: 2rem;
+}
+
+.owner {
+    font-weight: 800;
+    text-align: center;
+}
+
+#project-container {
+    text-align: center;
+}
+
+#swiper-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+#extra-container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem 0;
+}
+
+#extra-container h3 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.btn {
+    border: none;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.btn.git {
+    height: 50px;
+}
+
+.btn.git img {
+    width: 50px;
+}
+
+.btn.live {
+    padding-top: 0.2rem;
 }

@@ -5,6 +5,38 @@
     <div id="details-container">
         <div class="personal-img">
             <img src="../../assets/personal-img.jpg" alt="">
+            <h5 class="owner">BAIGUINI MATTIA - FULLSTACK WEB DEVELOPER</h5>
+        </div>
+    </div>
+
+    <div id="project-container">
+        <h3 class="project-title">MATMAL - TV SHOW LIBRARY</h3>
+
+        <div id="swiper-container">
+
+            <app-swiper></app-swiper>
+        </div>
+        <div id="extra-container">
+            <h3>Technologies used</h3>
+            <clr-accordion>
+                <clr-accordion-panel>
+                    <clr-accordion-title>FRONTEND</clr-accordion-title>
+                    <clr-accordion-content *clrIfExpanded>ANGULAR 8+ | NGXS | CLARITY DESIGN</clr-accordion-content>
+                </clr-accordion-panel>
+
+                <clr-accordion-panel>
+                    <clr-accordion-title>BACKEND</clr-accordion-title>
+                    <clr-accordion-content *clrIfExpanded>NEST.JS</clr-accordion-content>
+                </clr-accordion-panel>
+
+                <clr-accordion-panel>
+                    <clr-accordion-title>DATABASE & API'S</clr-accordion-title>
+                    <clr-accordion-content *clrIfExpanded>POSTGRES | TYPEORM | TMDB API</clr-accordion-content>
+                </clr-accordion-panel>
+            </clr-accordion>
+
+            <a class="btn git" [href]="gitCode" appExternalUrl><img src="../../assets/010-github.svg"> GIT PAGE</a>
+            <a class="btn live" [href]="liveLink" appExternalUrl>LIVE CODE</a>
         </div>
     </div>
 </div>
