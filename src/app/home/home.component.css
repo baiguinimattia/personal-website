@@ -7,8 +7,26 @@
 
 #image-container {
     margin: 0 auto;
-    height: 500px;
+    height: 250px;
     background: url(../../assets/developer-4523094.jpg) center center/cover no-repeat;
+}
+
+@media(min-width: 320px) and (max-width: 600px) {
+    #image-container {
+        height: 350px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 768px) {
+    #image-container {
+        height: 400px;
+    }
+}
+
+@media(min-width: 768px) {
+    #image-container {
+        height: 450px;
+    }
 }
 
 #details-container {
