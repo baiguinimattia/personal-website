@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  liveLink = "https://morning-meadow-06942.herokuapp.com/";
+  liveLink = "https://matmal-tv.herokuapp.com/";
   gitCode = "https://github.com/baiguinimattia/TVSeriesWebApp";
   resume = "https://drive.google.com/open?id=1ALlgSlSsYB9CDdBtnmEq_TBuTtbBRzY9";
   constructor() { }
