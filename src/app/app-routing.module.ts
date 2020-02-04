@@ -4,16 +4,15 @@ import { HomeComponent } from './home/home.component';
 
 const externalUrlProvider = new InjectionToken('externalUrlRedirectResolver');
 const routes: Routes = [
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
   {
     path: 'externalRedirect', resolve: {
       url: externalUrlProvider,
     },
     component: HomeComponent
   },
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
-    path: '*', redirectTo: 'home', pathMatch: 'full'
+    path: '*', redirectTo: '', pathMatch: 'full'
   }
 ];
 
